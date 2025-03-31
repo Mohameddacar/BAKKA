@@ -261,13 +261,15 @@ padding: 1rem;
     gap: 35pxem;
     align-items: center;
 }
-.contact_left input, .contact_left textarea{
+.contact_left input, .contact_left textarea, .contact_left button{
     padding: 15px;
     outline: none;
     background: #fcffe7;
     border: 2px solid #600081;
     border-radius: 15px;
     box-shadow: rgba(0,0,0,0.35) 0 5px 15px;
+    font-size: 1.2em;
+    cursor: pointer;
 }
 .contact_left input{
     margin: 2% 0;
@@ -276,6 +278,8 @@ padding: 1rem;
     width: 100%;
     border-radius: 10px;
 }
+
+
 
 /* __________footer */
 footer{
